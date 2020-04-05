@@ -1,0 +1,37 @@
+.header {
+    height: 100px;
+    background-color: whitesmoke;
+    border: 2px solid silver;
+}
+
+#navbar{
+    height: 2rem;
+    background-color: whitesmoke;
+    border: 1px solid silver;
+    text-align: center;
+}
+
+#sidebar{
+    background-color: whitesmoke;
+    border: 1px solid silver;
+    text-align: center;
+}
+
+.scrollable{
+    height: fit-content;
+    overflow: scroll;
+}
+
+
+#maincontent{
+    height: 32rem;
+    background-color: whitesmoke;
+    border: 1px solid silver;
+    text-align: center;
+}
+
+@media  (max-width: 800px) {
+    #sidebar {
+        visibility: hidden;
+    }
+  }
